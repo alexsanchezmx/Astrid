@@ -1,0 +1,402 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#mainwrapper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.leftcolumn
+{width: 30%;
+margin-left: auto;
+margin-right: auto;}
+
+/* Right column */
+.rightcolumn {
+  width: 95%;
+  padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header
+{width: 70%;
+margin-left: auto;
+margin-right: auto;}
+
+#logo #sallogo
+{width: 100%;
+margin-left: auto;
+margin-right: auto;
+align-content: center;
+padding-top: 25px;
+padding-bottom: 100px;
+}
+
+#myVideo
+	{width: 100%;
+	display: none;}
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+	margin-left: auto;
+	margin-right: auto;
+	left: 50px;
+	text-align: center;
+	border: none;
+    background: none;
+    color: black;
+    cursor: pointer;
+	margin-bottom: 10px;
+
+}
+
+#myBtn:hover {
+    background: none;
+    color: black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+	/* Style the tab buttons */
+.tablink {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 5px 10px 5px;
+    font-size: 17px;
+    width: 32.33%;
+	margin: 1px;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: black;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    text-align: center;
+}
+
+/* Style each tab content individually */
+
+#Home	{background-color: white;}
+#News {background-color:white;
+width:90%;}
+#Contact {background-color:white;}
+
+
+#paintingsgallerymobile
+{display: none;}
+
+#paintingsgalleryglobal
+{display: block;}
+
+/* Add a card effect for articles */
+#card1 {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+ box-shadow: none;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.slideshow
+{display: none;}
+
+/* Responsive grid */
+
+.paintingsrow1, #drawingsrow1
+{
+	display: flex;
+  flex-wrap: wrap;
+	 margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.paintingsrow1 img
+{
+
+margin: 10px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#drawingsrow1 img
+{
+
+margin: 10px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.one {
+  display: flex;
+  flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.one img {
+  margin: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+	left: 50px;
+
+}
+
+.two
+{  display: flex;
+  flex-wrap: wrap;
+}
+
+.two img
+{
+
+margin: 10px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.three
+{
+display: flex;
+  flex-wrap: wrap;
+}
+
+.three img
+
+{ margin: 10px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer
+{display: block;
+width: 100%;
+background-color: black;
+margin: 0px;}
+
+#footdiv
+{color: white;
+ text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 20px;
+}
+
+
+
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+
+	#mainwrapper {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.rightcolumn {
+    width: 100%;
+	  padding: 0; }
+
+	.leftcolumn
+{width: 30%;
+margin-left: auto;
+margin-right: auto;}
+
+
+	header
+	{width: 90%;}
+
+
+#logo #sallogo {
+			width: 100%;
+			padding-top: 100px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+.slideshow
+	{display: none;}
+
+}
+
+
+
+
+
+
+
+/*media query for small screen devices*/@media screen and (max-width:480px) {
+
+	.leftcolumn
+{width: 50%;
+margin-left: auto;
+margin-right: auto;}
+
+	.rightcolumn
+	{width: 100%;
+	margin-left: auto;
+	margin-right: auto;}
+
+
+#mainwrapper
+	{width: 100%;
+	margin-left: auto;
+	margin-right: auto;}
+
+
+	#myVideo {
+		display: none;}
+
+	#card1 {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: none;}
+
+
+	#gallery{
+		display: none;}
+
+
+	.slideshow{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 110px;
+		margin-bottom: 0px;
+	}
+
+	.numbertext
+	{position: absolute;
+	color: white;}
+
+
+
+	/* Style the tab buttons */
+.tablink {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+    font-size: 17px;
+    width: 31%;
+	margin: 1px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: black;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    text-align: center;
+}
+
+/* Style each tab content individually */
+
+#Home	{background-color: white;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;}
+#News {background-color:white;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+#Contact {background-color:white;}
+
+* {box-sizing:border-box}
+
+.mainContent
+	{display:block;}
+
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+/* Caption text */
+.slidetext {
+  color: #f2f2f2;
+  font-size: 15px;
+  margin-right: auto;
+	margin-left: auto;
+  position: absolute;
+  bottom: -290px;
+  width: 100%;
+  text-align: center;
+}
+
+
+footer
+	{margin-top: 55px;}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;}
+
+
+
+
+@-webkit-keyframes fade{
+
+		from {opacity: .4}
+		to {opacity: 1}}
+
+@keyframes fade {
+  from {opacity: .4}
+	to {opacity: 1}
+
+h1 {color: black;}
