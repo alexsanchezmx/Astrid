@@ -263,7 +263,7 @@ margin-right: auto;}
 
 
 
-/*media query for small screen devices*/@media screen and (max-width:480px) {
+/*media query for small screen devices*/@media screen and (max-width:600px) {
 
 	.leftcolumn
 {width: 50%;
